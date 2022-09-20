@@ -10,6 +10,7 @@ int main(){
   steps = 20;
 
   fahr = lower;
+  printf("Celsius Fahr\n");
   while(fahr <= upper)
   {
     celcius = (5.0/9.0) * (fahr - 32.0);
